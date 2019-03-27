@@ -13,9 +13,9 @@ public class Bounuses {
 
 
 
-        //prime();
+         //prime();
         //array();
-
+        //halfString("Practice");
 
 
 
@@ -95,6 +95,18 @@ public static void array(){
 //    middleTwo('string') →
 //    middleTwo('code') →
 //    middleTwo('Practice') →
+
+public static void halfString(String input){
+        int l = input.length();
+        int h = l/2;
+        int s = h-1;
+        int e = h+1;
+        String out = input.substring(s,e);
+        System.out.println(out);
+}
+
+
+
 
 
 }
