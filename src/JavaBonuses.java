@@ -1,9 +1,6 @@
 package src;
 
 import java.util.Scanner;
-import java.lang.*;
-import java.io.*;
-import java.util.*;
 
 public class JavaBonuses {
     public static void main(String[] args) {
@@ -68,3 +65,26 @@ public class JavaBonuses {
 //        conCat('abc', 'cat') → abcat
 //        conCat('dog', 'cat') → dogcat
 //        conCat('abc', '') → abc
+
+
+//        1) create three variables, start, end, and sum. Use a loop to find the summation of
+//        all the numbers between start and end (inclusive)
+//
+//
+//
+//        3) output a table representing the binary representations of the powers of 2
+//        decimal       |       binary
+//        1     |     00000001
+//        2     |     00000010
+//        4     |     00000100 (edited)
+//
+//
+//
+//
+//        7) Given 2 strings, a and b, return a string of the form short+long+short, with the shorter
+//        string on the outside and the longer string on the inside. The strings will not be the same length,
+//        but they may be empty (length 0).
+//        Examples
+//        comboString('Hello', 'hi') → hiHellohi
+//        caomboString('Hi', 'Hello') → HiHelloHi
+//        comboString('aaa', 'b') → baaab
